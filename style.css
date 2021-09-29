@@ -1,0 +1,199 @@
+/* BODY CCS */
+body {
+  background-color: #c4d6cb;
+}
+
+/* SECTION 1 */
+.logo {
+  background-image: url(img/splash.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo img {
+  height: 40%;
+  margin-top: 30vh;
+}
+
+.nedad img {
+  margin-top: -20vh;
+  cursor: pointer;
+}
+
+.navigation {
+  background-color: #437266;
+  background-size: cover;
+}
+
+.nav-link {
+  font-family: "Lora";
+  color: #e8feff;
+  font-size: large;
+}
+
+.nav-link:hover {
+  color: #c4d6cb;
+  text-decoration: underline;
+}
+
+/* SECTION 2 */
+#section2 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vw;
+}
+
+#section2 article {
+  background-color: #80b3ce;
+  padding: 5vw;
+}
+
+#section2 h1,
+#section2 p {
+  color: #e8feff;
+}
+
+h1 {
+  font-family: "Caveat";
+  font-size: xxx-large;
+  color: #e8feff;
+}
+
+p {
+  font-family: "Lora";
+  font-size: small;
+}
+
+.section2img {
+  width: 80%;
+  height: 40vh;
+}
+
+.first {
+  margin-top: 5vw;
+  margin-left: 0vw;
+}
+
+.second {
+  margin-left: 15vw;
+  margin-top: -30vh;
+}
+
+.blomst {
+  width: 20%;
+  height: 15vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.opdeler {
+  width: 70%;
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  margin-left: 15%;
+}
+
+/* SECTION 3 */
+#section3 {
+  background-image: url(img/berrieshoj.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10vw;
+}
+
+#section3 article {
+  background-color: rgba(245, 243, 190, 0.9);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw;
+  color: #437266;
+}
+
+#section3 h1 {
+  color: #437266;
+}
+
+.tree {
+  width: 25%;
+  height: 20vh;
+}
+
+.label {
+  width: 55%;
+  height: 75vh;
+  margin-left: 30vw;
+  margin-top: -30vh;
+}
+
+.opdeler2 {
+  width: 60%;
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  margin-left: 20%;
+  transform: rotateY(180deg);
+}
+
+/* SECTION 4 */
+#section4 img {
+  width: 90%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#section4 .opdeler {
+  width: 60%;
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  margin-left: 20%;
+}
+
+/* SECTION 5 */
+#section5 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vw;
+}
+
+#section5 article {
+  background-color: #80b3ce;
+  padding: 5vw;
+}
+
+#section5 .opdeler {
+  transform: rotateY(180deg);
+}
+
+#section5 .text {
+  color: #e8feff;
+  border: #e8feff solid 2px;
+  padding: 2vw;
+  margin-bottom: 5vw;
+  width: 70%;
+}
+
+h2 {
+  font-family: "Lora";
+  color: #e8feff;
+}
+
+#section5 p {
+  font-family: "Lora";
+  color: #e8feff;
+}
+
+#section5 img {
+  width: 20%;
+  height: 12vh;
+  margin-right: 5vw;
+}
+
+@media (min-width: 768px) {
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+  }
+}
