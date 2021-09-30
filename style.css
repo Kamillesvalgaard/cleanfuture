@@ -1,6 +1,15 @@
+:root {
+  --p-font: "lora";
+  --overskrift: "caveat";
+  --baggrund: #c4d6cb;
+  --nav: #437266;
+  --p-color: #e8feff;
+  --article-color: #80b3ce;
+}
+
 /* BODY CCS */
 body {
-  background-color: #c4d6cb;
+  background-color: var(--baggrund);
 }
 
 /* SECTION 1 */
@@ -29,18 +38,18 @@ body {
 }
 
 .navigation {
-  background-color: #437266;
+  background-color: var(--nav);
   background-size: cover;
 }
 
 .nav-link {
-  font-family: "Lora";
-  color: #e8feff;
+  font-family: var(--p-font);
+  color: var(--p-color);
   font-size: large;
 }
 
 .nav-link:hover {
-  color: #c4d6cb;
+  color: var(--baggrund);
   text-decoration: underline;
 }
 
@@ -52,23 +61,23 @@ body {
 }
 
 #section2 article {
-  background-color: #80b3ce;
+  background-color: var(--article-color);
   padding: 5vw;
 }
 
 #section2 h1,
 #section2 p {
-  color: #e8feff;
+  color: var(--p-color);
 }
 
 h1 {
-  font-family: "Caveat";
+  font-family: var(--overskrift);
   font-size: xxx-large;
-  color: #e8feff;
+  color: var(--p-color);
 }
 
 p {
-  font-family: "Lora";
+  font-family: var(--p-font);
   font-size: small;
 }
 
@@ -118,11 +127,11 @@ p {
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 5vw;
-  color: #437266;
+  color: var(--nav);
 }
 
 #section3 h1 {
-  color: #437266;
+  color: var(--nav);
 }
 
 .tree {
@@ -167,7 +176,7 @@ p {
 }
 
 #section5 article {
-  background-color: #80b3ce;
+  background-color: var(--article-color);
   padding: 5vw;
 }
 
@@ -176,21 +185,21 @@ p {
 }
 
 #section5 .text {
-  color: #e8feff;
-  border: #e8feff solid 2px;
+  color: var(--p-color);
+  border: var(--p-color) solid 2px;
   padding: 2vw;
   margin-bottom: 5vw;
   width: 70%;
 }
 
 h2 {
-  font-family: "Lora";
-  color: #e8feff;
+  font-family: var(--p-font);
+  color: var(--p-color);
 }
 
 #section5 p {
-  font-family: "Lora";
-  color: #e8feff;
+  font-family: var(--p-font);
+  color: var(--p-color);
 }
 
 #section5 .apple {
@@ -232,19 +241,19 @@ h2 {
 }
 
 #section7 article {
-  background-color: #80b3ce;
+  background-color: var(--article-color);
   padding: 5vw;
   margin: 5vw;
 }
 
 #section7 p {
-  color: #e8feff;
-  font-family: "lora";
+  font-family: var(--p-font);
+  color: var(--p-color);
 }
 
 #section7 h3 {
-  color: #e8feff;
-  font-family: "lora";
+  font-family: var(--p-font);
+  color: var(--p-color);
 }
 
 .kayak {
@@ -259,20 +268,20 @@ h2 {
 
 /* FOOTER */
 footer {
-  background-color: #437266;
+  background-color: var(--nav);
   padding: 5vw;
   color: #e8feff;
 }
 
 footer a {
-  font-family: "lora";
-  color: #e8feff;
+  font-family: var(--p-font);
+  color: var(--p-color);
   font-size: small;
   text-align: end;
 }
 
 footer a:hover {
-  color: #c4d6cb;
+  color: var(--baggrund);
 }
 
 .opad {
@@ -281,7 +290,7 @@ footer a:hover {
 }
 
 .opadtxt {
-  color: #437266;
+  color: var(--nav);
 }
 
 @media (min-width: 768px) {
