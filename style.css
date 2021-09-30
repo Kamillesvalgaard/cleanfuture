@@ -198,7 +198,6 @@ p {
   border: var(--p-color) solid 2px;
   padding: 2vw;
   margin-bottom: 5vw;
-  width: 70%;
 }
 
 h2 {
@@ -213,23 +212,19 @@ h2 {
 
 #section5 .apple {
   width: auto;
-  height: 15vh;
-  margin-left: -5vw;
-  margin-right: 5vw;
+  transform: translate(-80%, 40%);
 }
 
 #section5 .glas {
   width: auto;
   height: 20vh;
-  margin-left: 8vw;
-  margin-right: -5vw;
+  transform: translateX(80%);
 }
 
 #section5 .batteri {
   width: auto;
   height: 10vh;
-  margin-left: -5vw;
-  margin-right: 5vw;
+  transform: translate(-60%, 40%);
 }
 
 /* SECTION 6 */
