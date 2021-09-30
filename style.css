@@ -90,7 +90,7 @@ p {
 }
 
 .section2img {
-  width: atuo;
+  width: auto;
   height: 40vh;
 }
 
@@ -107,6 +107,7 @@ p {
 .blomst {
   width: auto;
   height: 15vh;
+  margin-top: 35vh;
 }
 
 .flex {
