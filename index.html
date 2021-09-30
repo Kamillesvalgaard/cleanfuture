@@ -24,7 +24,7 @@
   </head>
   <body>
     <header>
-      <nav class="flex navigation col-12">
+      <nav class="flex navigation col-12 fixed-top">
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#section2"
@@ -35,7 +35,7 @@
             <a class="nav-link" href="#section3">Produktet</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section4">Link</a>
+            <a class="nav-link" href="#section7">Bidrag</a>
           </li>
         </ul>
       </nav>
@@ -46,7 +46,7 @@
           <img src="img/logo.png" alt="logo" />
         </div>
         <div class="nedad text-center">
-          <img src="img/nedad.png" alt="nedadknap" />
+          <a href="#section2"><img src="img/nedad.png" alt="nedadknap" /></a>
         </div>
       </section>
       <section id="section2">
@@ -90,8 +90,8 @@
       </div>
       <section id="section3">
         <article>
-          <h1>Med god samvittighed</h1>
-          <p>
+          <h1 class="col-md-4">Med god samvittighed</h1>
+          <p class="col-md-4">
             Når du køber universalrens fra Clean Future, kan du være sikker på
             at kunne gøre rent med god samvittighed. <br />
             Vores produkter er økologiske, uden skadelig kemi, og emballagen er
@@ -104,7 +104,7 @@
           <img class="tree" src="img/tree.png" alt="tree" />
         </article>
         <div>
-          <img class="label" src="img/label.png" alt="emballage" />
+          <img class="label col-md-4" src="img/label.png" alt="emballage" />
         </div>
       </section>
       <div>
@@ -200,24 +200,55 @@
       <div>
         <img class="opdeler" src="img/opdeler.png" alt="sektionsopdeler" />
       </div>
-      <!-- <section id="section7">
-        <div><img src="" alt="" /></div>
+      <section class="mb-5" id="section7">
         <article>
-          <h1></h1>
-          <p></p>
-          <img src="" alt="" />
-          <h2></h2>
-          <div>
-            <img src="" alt="" />
-            <img src="" alt="" />
+          <h1 class="text-center mb-4">
+            Du kan bidrage til dine børns fremtid
+          </h1>
+          <p class="text-center">
+            Fremtiden er et sårbart emne. <br />For den er uklar og usikker.
+            <br />Hvordan bliver den for dine børn? <br />Hvordan bliver den for
+            dig? <br />Vi kender til bekymringen. <br />Vi kender til
+            magtesløsheden.
+          </p>
+          <h3 class="text-center mt-5 mb-5">
+            <strong> Søndag d. 5. juni </strong>
+          </h3>
+
+          <p class="text-center">
+            …er det international miljø-dag. <br />Derfor er vi gået sammen med
+            GreenKayak, om at samle skrald i de danske have og på de danske
+            strande. <br />Du kan bidrage til en bedre verden, til en bedre
+            fremtid.<br />
+            For os allesammen, og for fremtidens børn. <br /><br />Du kan
+            deltage i vores event på Facebook, og du kan dele hashtagget og
+            budskabet på dine sociale medier.
+          </p>
+          <img class="kayak" src="img/kayak.png" alt="illustration af kayak" />
+          <h2 class="text-center">
+            #cleanfuture <br />
+            #forfremtidensbørn
+          </h2>
+
+          <div class="text-center">
+            <a target="”_blank”" href="https://www.facebook.com"
+              ><img class="some" src="img/fb.png" alt="fb-ikon"
+            /></a>
+            <a target="”_blank”" href="https://www.instagram.com">
+              <img class="some" src="img/insta.png" alt="ig-ikon"
+            /></a>
           </div>
         </article>
-      </section> -->
+      </section>
     </main>
-    <footer>
-      <p></p>
-      <p></p>
-      <p></p>
+    <footer class="flex">
+      <p class="col-4">
+        +45 12 23 34 45 <br />
+        Vesterbrogade 40, <br />
+        1620 Kbh V
+      </p>
+      <img class="col-4" src="img/logo.png" alt="logo" />
+      <a class="col-4" href="">Privatlivspolitik</a>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

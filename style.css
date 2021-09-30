@@ -218,6 +218,55 @@ h2 {
   margin-left: -40vw;
 }
 
+/* SECTION 7 */
+#section7 {
+  background-image: url(img/baggrund.png);
+}
+
+#section7 article {
+  background-color: #80b3ce;
+  padding: 5vw;
+  margin: 5vw;
+}
+
+#section7 p {
+  color: #e8feff;
+  font-family: "lora";
+}
+
+#section7 h3 {
+  color: #e8feff;
+  font-family: "lora";
+}
+
+.kayak {
+  width: 40%;
+}
+
+.some {
+  width: 10%;
+  margin: 5vw;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-color: #e8feff;
+  padding: 5vw;
+  color: #437266;
+}
+
+footer a {
+  font-family: "lora";
+  color: #437266;
+  font-size: small;
+  text-align: end;
+}
+
+footer a:hover {
+  color: #80b3ce;
+}
+
 @media (min-width: 768px) {
   .flexbox {
     display: flex;
