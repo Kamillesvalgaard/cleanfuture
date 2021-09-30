@@ -4,9 +4,17 @@ body {
 }
 
 /* SECTION 1 */
+
+/* #bgvid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
 .logo {
-  background-image: url(img/splash.png);
-  background-size: cover;
   height: 100vh;
 }
 
@@ -251,20 +259,29 @@ h2 {
 
 /* FOOTER */
 footer {
-  background-color: #e8feff;
+  background-color: #437266;
   padding: 5vw;
-  color: #437266;
+  color: #e8feff;
 }
 
 footer a {
   font-family: "lora";
-  color: #437266;
+  color: #e8feff;
   font-size: small;
   text-align: end;
 }
 
 footer a:hover {
   color: #80b3ce;
+}
+
+.opad {
+  transform: rotateX(180deg);
+  cursor: pointer;
+}
+
+.opadtxt {
+  color: #437266;
 }
 
 @media (min-width: 768px) {
