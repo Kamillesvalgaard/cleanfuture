@@ -469,3 +469,10 @@ footer a:hover {
     width: 7vw;
   }
 }
+
+@media (min-width: 1400px) {
+  .flexweb {
+    display: flex;
+    flex-direction: row;
+  }
+}
