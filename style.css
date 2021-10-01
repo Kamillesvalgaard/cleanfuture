@@ -338,4 +338,131 @@ footer a:hover {
     display: flex;
     flex-direction: row;
   }
+
+  .nedad img {
+    margin-top: -20vh;
+    cursor: pointer;
+    width: 7vw;
+  }
+
+  #section2 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+  }
+
+  .section2img {
+    width: auto;
+    height: 40vh;
+  }
+
+  .first {
+    margin-top: 5vw;
+    margin-left: 35%;
+  }
+
+  .blomst {
+    width: auto;
+    height: 20vh;
+    margin-top: 20vh;
+  }
+
+  #section2 p {
+    margin-right: 10vw;
+  }
+
+  .opdeler {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  #section3 {
+    background-size: cover;
+  }
+
+  #section3 p {
+    margin-right: 10vw;
+  }
+
+  .label {
+    margin-left: 50vw;
+    margin-top: -40vh;
+  }
+
+  .opdeler2 {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+
+  .opdeler3 {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 140vh;
+    margin-bottom: 15vh;
+  }
+
+  .section5overskrift {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: -5vh;
+  }
+
+  h2 {
+    font-size: x-large;
+  }
+
+  #section5 .apple {
+    width: 10vw;
+    transform: translate(-80%, 10%);
+  }
+
+  #section5 .glas {
+    width: auto;
+    height: 20vh;
+    transform: translateX(200%);
+  }
+
+  #section5 .batteri {
+    width: auto;
+    height: 10vh;
+    transform: translate(-30%, 40%);
+  }
+
+  #section7 article {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin: 10vw;
+    transform: translateX(7%);
+    width: 70%;
+  }
+
+  #section7 h2 {
+    margin-top: 5vh;
+  }
+
+  .some {
+    width: 15%;
+  }
+
+  /* FOOTER */
+
+  footer a,
+  footer p,
+  .opadtxt {
+    font-size: medium;
+  }
+
+  .footerimg {
+    width: 20%;
+  }
+
+  .tilbage {
+    cursor: pointer;
+    margin-top: 170vh;
+    width: 7vw;
+  }
 }
