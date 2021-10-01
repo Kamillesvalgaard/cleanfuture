@@ -235,8 +235,8 @@ h2 {
 
 #section5 .glas {
   width: auto;
-  height: 20vh;
-  transform: translateX(80%);
+  height: 15vh;
+  transform: translateX(750%);
 }
 
 #section5 .batteri {
@@ -425,14 +425,18 @@ footer a:hover {
 
   #section5 .glas {
     width: auto;
-    height: 20vh;
-    transform: translateX(200%);
+    height: 15vh;
+    transform: translateX(1000%);
   }
 
   #section5 .batteri {
     width: auto;
     height: 10vh;
     transform: translate(-30%, 40%);
+  }
+
+  .havet {
+    margin-left: -30vw;
   }
 
   #section7 article {
@@ -474,5 +478,208 @@ footer a:hover {
   .flexweb {
     display: flex;
     flex-direction: row;
+  }
+
+  /* SECTION 1 */
+
+  .logo img {
+    height: 50%;
+    margin-top: 25vh;
+  }
+
+  .nedad img {
+    width: 3vw;
+  }
+
+  .nav-link {
+    font-size: x-large;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  /* SECTION 2 */
+  #section2 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #section2 article {
+    padding: 3vw;
+    margin-right: 10vw;
+    width: 50%;
+  }
+  .first {
+    margin-top: 5vw;
+    margin-left: 0vw;
+  }
+
+  .second {
+    margin-left: 10vw;
+    margin-top: -30vh;
+  }
+
+  .blomst {
+    width: auto;
+    margin-top: 25vh;
+    margin-left: -5vw;
+  }
+
+  .opdeler {
+    width: 25%;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: 40%;
+  }
+
+  /* SECTION 3 */
+  #section3 {
+    margin-top: 0vw;
+  }
+
+  #section3 article {
+    width: 50%;
+    height: 60%;
+    padding-top: 5vh;
+    margin-bottom: 10vh;
+    margin-top: 25vh;
+  }
+
+  #section3 p {
+    width: 80%;
+  }
+
+  .tree {
+    height: 30vh;
+    margin-top: 10vh;
+  }
+
+  .label {
+    height: 100vh;
+    margin-left: 0vw;
+    margin-top: 5vh;
+  }
+
+  .opdeler2 {
+    width: 25%;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: 40%;
+  }
+
+  .opdeler3 {
+    width: 25%;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: 40%;
+    margin-top: 130vh;
+  }
+
+  /* SECTION 4 */
+  #section4 img {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  /* SECTION 5 */
+  #section5 {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    width: 50%;
+  }
+
+  #section5 h1 {
+    margin-left: -5vw;
+    margin-right: -5vw;
+    margin-bottom: 2vh;
+  }
+
+  #section5 article {
+    padding: 3vw;
+  }
+
+  #section5 .text {
+    padding: 1vw;
+    width: 41%;
+  }
+
+  #section5 .apple {
+    width: 40%;
+    transform: translate(80%, 100%);
+  }
+
+  #section5 .glas {
+    width: auto;
+    height: 15vh;
+    transform: translate(-450%, 50%);
+  }
+
+  #section5 .batteri {
+    width: auto;
+    height: 10vh;
+    transform: translate(-30%, 100%);
+  }
+
+  /* SECTION 6 */
+  #section6 {
+    width: 100%;
+    display: grid;
+  }
+
+  #section6 .info {
+    border-radius: 100%;
+    width: 30%;
+    margin-left: 20vw;
+  }
+
+  .havet {
+    width: 30%;
+    margin-top: -40vh;
+    margin-left: 40vw;
+  }
+
+  /* SECTION 7 */
+  #section7 {
+    background-image: url(img/baggrund.png);
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+  }
+
+  #section7 article {
+    background-color: var(--article-color);
+    padding: 5vw;
+    margin: 5vw;
+    position: relative;
+    margin-right: 25vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 50%;
+    margin-left: 22vw;
+  }
+
+  .some {
+    width: 12%;
+    margin: 2vw;
+    cursor: pointer;
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: var(--nav);
+    padding: 5vw;
+    color: #e8feff;
+    padding: 2vw;
+  }
+
+  .footerimg {
+    width: 10vw;
+  }
+
+  .tilbage {
+    cursor: pointer;
+    width: 3vw;
+    margin-top: 180vh;
   }
 }
