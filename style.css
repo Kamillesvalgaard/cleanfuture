@@ -130,6 +130,8 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 10vw;
+  position: absolute;
+  z-index: -10;
 }
 
 #section3 article {
@@ -138,6 +140,9 @@ p {
   margin-right: 10vw;
   padding: 5vw;
   color: var(--nav);
+  position: relative;
+  margin-top: 10vw;
+  z-index: -5;
 }
 
 #section3 h1 {
@@ -154,14 +159,23 @@ p {
   height: 75vh;
   margin-left: 30vw;
   margin-top: -30vh;
+  z-index: 10;
 }
 
 .opdeler2 {
   width: 70%;
-  margin-top: 15vw;
-  margin-bottom: 15vw;
+  margin-bottom: 15vh;
   margin-left: 15%;
   transform: rotateY(180deg);
+  margin-top: 15vh;
+}
+
+.opdeler3 {
+  width: 70%;
+  margin-bottom: 15vh;
+  margin-left: 15%;
+  transform: rotateY(180deg);
+  margin-top: 130vh;
 }
 
 /* SECTION 4 */
@@ -243,12 +257,14 @@ h2 {
 /* SECTION 7 */
 #section7 {
   background-image: url(img/baggrund.png);
+  position: absolute;
 }
 
 #section7 article {
   background-color: var(--article-color);
   padding: 5vw;
   margin: 5vw;
+  position: relative;
 }
 
 #section7 p {
@@ -295,6 +311,7 @@ footer a:hover {
 
 .tilbage {
   cursor: pointer;
+  margin-top: 140vh;
 }
 
 .tilbage:hover {
