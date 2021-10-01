@@ -197,8 +197,6 @@ p {
 
 /* SECTION 5 */
 #section5 {
-  margin-left: 10vw;
-  margin-right: 10vw;
   margin-top: 10vw;
 }
 
@@ -230,19 +228,25 @@ h2 {
 
 #section5 .apple {
   width: auto;
-  transform: translate(-80%, 40%);
+  transform: translate(-20%, 40%);
 }
 
 #section5 .glas {
   width: auto;
   height: 15vh;
-  transform: translateX(720%);
+  transform: translateX(600%);
 }
 
 #section5 .batteri {
   width: auto;
-  height: 10vh;
-  transform: translate(-60%, 40%);
+  height: 7vh;
+  transform: translate(-20%, 40%);
+}
+
+.frame {
+  width: 100%;
+  background-image: url(img/blomsterbaggrund.png);
+  padding: 50px 50px;
 }
 
 /* SECTION 6 */
@@ -420,7 +424,7 @@ footer a:hover {
 
   #section5 .apple {
     width: 10vw;
-    transform: translate(-80%, 10%);
+    transform: translate(30%, 10%);
   }
 
   #section5 .glas {
@@ -603,7 +607,6 @@ footer a:hover {
     padding: 1vw;
     width: 41%;
   }
-
   #section5 .apple {
     width: 40%;
     transform: translate(80%, 100%);
