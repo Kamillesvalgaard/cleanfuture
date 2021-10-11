@@ -32,7 +32,7 @@ gsap.from(".section2gsap", {
 });
 
 gsap.from(".first", {
-  x: -500,
+  x: -1200,
   duration: 2,
   scrollTrigger: {
     trigger: ".section2gsap",
@@ -169,3 +169,18 @@ gsap.from(".container2", {
     end: "center 25%",
   },
 });
+
+// ScrollTrigger.matchMedia({
+//   "(min-width: 1400px)": function () {
+//     gsap.from(".first", {
+//             x: -600,
+//             duration: 2,
+//             scrollTrigger: {
+//               trigger: ".section2gsap",
+//               // markers: true,
+//               toggleActions: "play none none reverse",
+//               start: "center center",
+//               end: "center 25%",
+//             },
+//   }
+// });
